@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>ear-sfsb-servlet-ear</artifactId>
+	<packaging>ear</packaging>
+	<name>ear-sfsb-servlet-ear</name>
+
+	<parent>
+		<groupId>tests</groupId>
+		<artifactId>ear-sfsb-servlet</artifactId>
+		<version>0.1</version>
+	</parent>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>jboss-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>node1</id>
+						<phase>install</phase>
+						<goals>
+							<goal>hard-deploy</goal>
+						</goals>
+						<configuration>
+							<jbossHome>D:\JBoss\jboss-5.1.0.GA-tests</jbossHome>
+							<serverName>all-node1</serverName>
+							<fileName>target/ear-sfsb-servlet-ear-0.1.ear</fileName>
+						</configuration>
+					</execution>
+					<execution>
+						<id>node2</id>
+						<phase>install</phase>
+						<goals>
+							<goal>hard-deploy</goal>
+						</goals>
+						<configuration>
+							<jbossHome>D:\JBoss\jboss-5.1.0.GA-tests</jbossHome>
+							<serverName>all-node2</serverName>
+							<fileName>target/ear-sfsb-servlet-ear-0.1.ear</fileName>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>tests</groupId>
+			<artifactId>ear-sfsb-servlet-ejb</artifactId>
+			<version>0.1</version>
+			<type>ejb</type>
+		</dependency>
+		<dependency>
+			<groupId>tests</groupId>
+			<artifactId>ear-sfsb-servlet-war</artifactId>
+			<version>0.1</version>
+			<type>war</type>
+		</dependency>
+	</dependencies>
+</project>

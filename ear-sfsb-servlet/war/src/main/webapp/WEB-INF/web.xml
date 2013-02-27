@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<display-name>ear-sfsb-servlet-war</display-name>
+	<distributable />
+	<servlet>
+		<servlet-name>servlet-sfsb</servlet-name>
+		<servlet-class>tests.ServletSfsb</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>servlet2</servlet-name>
+		<servlet-class>tests.Servlet2</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>trans-tests</servlet-name>
+		<servlet-class>tests.transactions.TransTests</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>jboss-cache-tests</servlet-name>
+		<servlet-class>tests.transactions.jbossCache.JbossCacheTests</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>pres</servlet-name>
+		<servlet-class>pres.PresentationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servlet-sfsb</servlet-name>
+		<url-pattern>/servlet-sfsb</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>servlet2</servlet-name>
+		<url-pattern>/servlet2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>trans-tests</servlet-name>
+		<url-pattern>/trans-tests</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>jboss-cache-tests</servlet-name>
+		<url-pattern>/jboss-cache-tests</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>pres</servlet-name>
+		<url-pattern>/pres</url-pattern>
+	</servlet-mapping>
+	<session-config>
+		<session-timeout>300</session-timeout>
+	</session-config>
+	<!-- <ejb-ref>
+		<ejb-ref-name>sfsBeanRef</ejb-ref-name>
+		<ejb-ref-type>Session</ejb-ref-type>
+		<mapped-name>sfsBean</mapped-name>
+	</ejb-ref> -->
+</web-app>

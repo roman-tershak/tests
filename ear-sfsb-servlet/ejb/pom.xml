@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>ear-sfsb-servlet-ejb</artifactId>
+    <packaging>ejb</packaging>
+    <name>ear-sfsb-servlet-ejb</name>
+
+    <parent>
+        <groupId>tests</groupId>
+        <artifactId>ear-sfsb-servlet</artifactId>
+        <version>0.1</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+        	<groupId>org.jboss.ejb3</groupId>
+        	<artifactId>jboss-ejb3-ext-api-impl</artifactId>
+        	<version>1.1.1</version>
+        	<scope>provided</scope>
+        </dependency>
+
+		<dependency>
+			<groupId>org.jboss.jbossas</groupId>
+			<artifactId>jboss-as-client</artifactId>
+			<version>5.1.0.GA</version>
+			<type>pom</type>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+		</dependency>
+    </dependencies>
+</project>

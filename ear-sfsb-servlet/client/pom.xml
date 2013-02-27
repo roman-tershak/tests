@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>ear-sfsb-servlet</artifactId>
+		<groupId>tests</groupId>
+		<version>0.1</version>
+	</parent>
+	<artifactId>ear-sfsb-servlet-client</artifactId>
+	<name>ear-sfsb-servlet-client</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>tests</groupId>
+			<artifactId>ear-sfsb-servlet-ejb</artifactId>
+			<version>0.1</version>
+			<type>ejb</type>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.geronimo.specs</groupId>
+			<artifactId>geronimo-ejb_3.0_spec</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.jbossas</groupId>
+			<artifactId>jboss-as-client</artifactId>
+			<version>5.1.0.GA</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.geronimo.specs</groupId>
+			<artifactId>geronimo-jacc_1.1_spec</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>de.huxhorn.lilith</groupId>
+			<artifactId>log4j</artifactId>
+			<version>0.9.41</version>
+		</dependency>
+	</dependencies>
+</project>

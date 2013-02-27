@@ -1,0 +1,37 @@
+package pres.transactions.cmt;
+
+import java.sql.Connection;
+import java.util.Map;
+
+import javax.ejb.Stateless;
+import javax.ejb.TransactionAttribute;
+import javax.ejb.TransactionAttributeType;
+import javax.ejb.TransactionManagement;
+import javax.ejb.TransactionManagementType;
+
+import pres.AbstractBean;
+import pres.GenericBeanInterface;
+import pres.transactions.DBUtils;
+
+@Stateless(mappedName="CMTStatelessBeanA")
+@TransactionManagement(TransactionManagementType.CONTAINER)
+public class CMTStatelessBeanA extends AbstractBean {
+
+	@TransactionAttribute(TransactionAttributeType.REQUIRED)
+	@Override
+	public Object opp(Map<String, Object> params, GenericBeanInterface... nexts) throws Exception {
+		
+		Integer rowId = (Integer) params.get("rowId");
+		String rowDetails = "inserted " + rowId + " in " + getClass().getSimpleName();
+		
+		Connection oracleConn = oracleDs.getConnection();
+		DBUtils.execute(oracleConn, "INSERT INTO TABLE1 (COL1, COL2) VALUES (?, ?)", rowId, rowDetails);
+		oracleConn.close();
+		
+		Connection postgresConn = postgresDs.getConnection();
+		DBUtils.execute(postgresConn, "INSERT INTO public.\"PGTABLE1\" (\"COL1\", \"COL2\") VALUES (?, ?)", rowId, rowDetails);
+		postgresConn.close();
+		
+		return super.opp(params, nexts);
+	}
+}
