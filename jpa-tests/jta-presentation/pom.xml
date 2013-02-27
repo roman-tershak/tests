@@ -1,0 +1,155 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <name>jta-presentation</name>
+
+  <groupId>jpa-tests</groupId>
+  <artifactId>testJta01</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+		<repositories>
+			<repository>
+				<id>jboss-repository-public</id>
+				<name>JBoss Public Group Maven Repository</name>
+				<url>https://repository.jboss.org/nexus/content/groups/public/</url>
+				<layout>default</layout>
+				<releases>
+					<enabled>true</enabled>
+					<updatePolicy>never</updatePolicy>
+				</releases>
+				<snapshots>
+					<enabled>true</enabled>
+					<updatePolicy>never</updatePolicy>
+				</snapshots>
+			</repository>
+			<repository>
+				<id>jboss-repository</id>
+				<name>JBoss Public Maven Repository</name>
+				<!-- <url>https://repository.jboss.org/nexus/content/repositories/releases/</url> -->
+				<url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+				<layout>default</layout>
+				<releases>
+					<enabled>true</enabled>
+					<updatePolicy>never</updatePolicy>
+				</releases>
+				<snapshots>
+					<enabled>true</enabled>
+					<updatePolicy>never</updatePolicy>
+				</snapshots>
+			</repository>
+			<repository>
+				<id>jboss-repository-thirdparty-releases</id>
+				<name>JBoss Thirdparty Releases</name>
+				<url>https://repository.jboss.org/nexus/content/groups/public-thirdparty-releases/</url>
+				<layout>default</layout>
+				<releases>
+					<enabled>true</enabled>
+					<updatePolicy>never</updatePolicy>
+				</releases>
+				<snapshots>
+					<enabled>true</enabled>
+					<updatePolicy>never</updatePolicy>
+				</snapshots>
+			</repository>
+			<repository>
+				<id>jboss-repository-codehaus-releases</id>
+				<name>JBoss Codehaus Releases</name>
+				<url>https://repository.jboss.org/nexus/content/repositories/codehaus-releases/</url>
+				<layout>default</layout>
+				<releases>
+					<enabled>true</enabled>
+					<updatePolicy>never</updatePolicy>
+				</releases>
+				<snapshots>
+					<enabled>true</enabled>
+					<updatePolicy>never</updatePolicy>
+				</snapshots>
+			</repository>
+			<repository>
+				<id>jboss-deprecated</id>
+				<name>JBoss Deprecated</name>
+				<url>https://repository.jboss.org/nexus/content/repositories/deprecated/</url>
+				<layout>default</layout>
+				<releases>
+					<enabled>true</enabled>
+					<updatePolicy>never</updatePolicy>
+				</releases>
+				<snapshots>
+					<enabled>true</enabled>
+					<updatePolicy>never</updatePolicy>
+				</snapshots>
+			</repository>
+		</repositories>
+
+
+  <dependencies>
+    <dependency>
+    	<groupId>javax.transaction</groupId>
+    	<artifactId>jta</artifactId>
+    	<version>1.1</version>
+    </dependency>
+    <dependency>
+    	<groupId>com.microsoft</groupId>
+    	<artifactId>sqljdbc4</artifactId>
+    	<version>3.0</version>
+    </dependency>
+    <dependency>
+    	<groupId>postgresql</groupId>
+    	<artifactId>postgresql</artifactId>
+    	<version>9.1-901-1.jdbc4</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.codehaus.btm</groupId>
+    	<artifactId>btm</artifactId>
+    	<version>2.1.2</version>
+    </dependency>
+    <dependency>
+    	<groupId>com.oracle</groupId>
+    	<artifactId>ojdbc14</artifactId>
+    	<version>10.2.0.4.0</version>
+    </dependency>
+    <dependency>
+    	<groupId>mysql</groupId>
+    	<artifactId>mysql-connector-java</artifactId>
+    	<version>5.1.15</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.slf4j</groupId>
+    	<artifactId>slf4j-simple</artifactId>
+    	<version>1.5.8</version>
+    </dependency>
+    <dependency>
+    	<groupId>commons-codec</groupId>
+    	<artifactId>commons-codec</artifactId>
+    	<version>1.6</version>
+    </dependency>
+    <!-- <dependency>
+    	<groupId>org.mule.modules</groupId>
+    	<artifactId>mule-module-jbossts</artifactId>
+    	<version>3.3-M1</version>
+    </dependency> -->
+    <dependency>
+    	<groupId>org.slf4j</groupId>
+    	<artifactId>slf4j-api</artifactId>
+    	<version>1.5.11</version>
+    </dependency>
+    <dependency>
+    	<groupId>junit</groupId>
+    	<artifactId>junit</artifactId>
+    	<version>4.10</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.jboss.jbossts</groupId>
+    	<artifactId>jbossjta</artifactId>
+    	<version>4.15.0.Final</version>
+    </dependency>
+  </dependencies>
+</project>

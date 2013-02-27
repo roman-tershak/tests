@@ -1,0 +1,399 @@
+<class-diagram version="0.9.86" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true">  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.apache.commons.dbcp.managed.BasicManagedDataSource" 
+    project="jpa-in-ejb-env01" 
+    file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+    binary="true">    
+    <position x="720" y="454" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.apache.commons.dbcp.managed.ManagedDataSource" 
+    project="jpa-in-ejb-env01" 
+    file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+    binary="true">    
+    <position x="1137" y="180" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.apache.commons.dbcp.PoolingDataSource" 
+    project="jpa-in-ejb-env01" 
+    file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+    binary="true">    
+    <position x="1107" y="-210" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.apache.commons.dbcp.BasicDataSource" project="jpa-in-ejb-env01" 
+    
+    file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+    binary="true">    
+    <position x="82" y="-390" width="316" height="1727"/>    
+    <display autosize="false" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="javax.sql.DataSource" project="entity-property-access" 
+    file="C:/Program Files (x86)/Java/jdk1.6.0_20/jre/lib/rt.jar" binary="true">    
+    <position x="568" y="-166" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="org.apache.commons.dbcp.ConnectionFactory" 
+    project="jpa-in-ejb-env01" 
+    file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+    binary="true">    
+    <position x="1722" y="-304" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.apache.commons.dbcp.DataSourceConnectionFactory" 
+    project="jpa-in-ejb-env01" 
+    file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+    binary="true">    
+    <position x="2197" y="-15" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.apache.commons.dbcp.DriverConnectionFactory" 
+    project="jpa-in-ejb-env01" 
+    file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+    binary="true">    
+    <position x="2174" y="-158" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.apache.commons.dbcp.DriverManagerConnectionFactory" 
+    project="jpa-in-ejb-env01" 
+    file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+    binary="true">    
+    <position x="2184" y="-314" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="org.apache.commons.dbcp.managed.XAConnectionFactory" 
+    project="jpa-in-ejb-env01" 
+    file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+    binary="true">    
+    <position x="1710" y="143" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.apache.commons.dbcp.managed.DataSourceXAConnectionFactory" 
+    project="jpa-in-ejb-env01" 
+    file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+    binary="true">    
+    <position x="1625" y="389" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.apache.commons.dbcp.managed.LocalXAConnectionFactory" 
+    project="jpa-in-ejb-env01" 
+    file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+    binary="true">    
+    <position x="1938" y="277" width="355" height="115"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="javax.sql.XADataSource" project="entity-property-access" 
+    file="C:/Program Files (x86)/Java/jdk1.6.0_20/jre/lib/rt.jar" binary="true">    
+    <position x="1161" y="518" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="javax.sql.CommonDataSource" project="entity-property-access" 
+    file="C:/Program Files (x86)/Java/jdk1.6.0_20/jre/lib/rt.jar" binary="true">    
+    <position x="748" y="-324" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.apache.openejb.resource.jdbc.ManagedDataSourceWithRecovery" 
+    project="jpa-in-ejb-env01" 
+    file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/openejb-core/3.1.4/openejb-core-3.1.4.jar" 
+    binary="true">    
+    <position x="1136" y="787" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.apache.openejb.resource.jdbc.BasicManagedDataSource" 
+    project="jpa-in-ejb-env01" 
+    file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/openejb-core/3.1.4/openejb-core-3.1.4.jar" 
+    binary="true">    
+    <position x="672" y="756" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <generalization>    
+    <source project="entity-property-access" name="javax.sql.XADataSource" 
+      file="C:/Program Files (x86)/Java/jdk1.6.0_20/jre/lib/rt.jar" binary="true"/>    
+    <target project="entity-property-access" name="javax.sql.CommonDataSource" 
+      file="C:/Program Files (x86)/Java/jdk1.6.0_20/jre/lib/rt.jar" binary="true"/>  
+  </generalization>  
+  <dependency>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.BasicManagedDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.ManagedDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </dependency>  
+  <dependency>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.BasicManagedDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.LocalXAConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </dependency>  
+  <association>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.BasicDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true" navigable="false">      
+      <attribute name="dataSource"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="entity-property-access" name="javax.sql.DataSource" 
+      file="C:/Program Files (x86)/Java/jdk1.6.0_20/jre/lib/rt.jar" binary="true" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.BasicManagedDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.XAConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </dependency>  
+  <association>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.DataSourceXAConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true" navigable="false">      
+      <attribute name="xaDataSource"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="entity-property-access" name="javax.sql.XADataSource" 
+      file="C:/Program Files (x86)/Java/jdk1.6.0_20/jre/lib/rt.jar" binary="true" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.BasicManagedDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.DataSourceXAConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </dependency>  
+  <realization>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.LocalXAConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.XAConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </realization>  
+  <realization>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.DataSourceConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.ConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </realization>  
+  <realization>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.BasicDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="entity-property-access" name="javax.sql.DataSource" 
+      file="C:/Program Files (x86)/Java/jdk1.6.0_20/jre/lib/rt.jar" binary="true"/>  
+  </realization>  
+  <generalization>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.XAConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.ConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </generalization>  
+  <dependency>    
+    <source project="jpa-in-ejb-env01" name="org.apache.openejb.resource.jdbc.BasicManagedDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/openejb-core/3.1.4/openejb-core-3.1.4.jar" 
+      binary="true"/>    
+    <target project="entity-property-access" name="javax.sql.DataSource" 
+      file="C:/Program Files (x86)/Java/jdk1.6.0_20/jre/lib/rt.jar" binary="true"/>  
+  </dependency>  
+  <association>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.LocalXAConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true" navigable="false">      
+      <attribute name="connectionFactory"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.ConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.DriverManagerConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.ConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </realization>  
+  <dependency>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.BasicManagedDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="entity-property-access" name="javax.sql.XADataSource" 
+      file="C:/Program Files (x86)/Java/jdk1.6.0_20/jre/lib/rt.jar" binary="true"/>  
+  </dependency>  
+  <dependency>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.BasicManagedDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.PoolingDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </dependency>  
+  <realization>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.DataSourceXAConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.XAConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </realization>  
+  <dependency>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.BasicManagedDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.ConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </dependency>  
+  <dependency>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.BasicDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.DriverConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </dependency>  
+  <generalization>    
+    <source project="jpa-in-ejb-env01" name="org.apache.openejb.resource.jdbc.BasicManagedDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/openejb-core/3.1.4/openejb-core-3.1.4.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.BasicManagedDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </generalization>  
+  <realization>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.PoolingDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="entity-property-access" name="javax.sql.DataSource" 
+      file="C:/Program Files (x86)/Java/jdk1.6.0_20/jre/lib/rt.jar" binary="true"/>  
+  </realization>  
+  <generalization>    
+    <source project="entity-property-access" name="javax.sql.DataSource" 
+      file="C:/Program Files (x86)/Java/jdk1.6.0_20/jre/lib/rt.jar" binary="true"/>    
+    <target project="entity-property-access" name="javax.sql.CommonDataSource" 
+      file="C:/Program Files (x86)/Java/jdk1.6.0_20/jre/lib/rt.jar" binary="true"/>  
+  </generalization>  
+  <generalization>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.ManagedDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.PoolingDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </generalization>  
+  <dependency>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.BasicDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.PoolingDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </dependency>  
+  <realization>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.DriverConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.ConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </realization>  
+  <association>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.DataSourceConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true" navigable="false">      
+      <attribute name="_source"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="entity-property-access" name="javax.sql.DataSource" 
+      file="C:/Program Files (x86)/Java/jdk1.6.0_20/jre/lib/rt.jar" binary="true" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.BasicDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.ConnectionFactory" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </dependency>  
+  <generalization>    
+    <source project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.managed.BasicManagedDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.commons.dbcp.BasicDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/commons-dbcp-all/1.3-r699049/commons-dbcp-all-1.3-r699049.jar" 
+      binary="true"/>  
+  </generalization>  
+  <generalization>    
+    <source project="jpa-in-ejb-env01" name="org.apache.openejb.resource.jdbc.ManagedDataSourceWithRecovery" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/openejb-core/3.1.4/openejb-core-3.1.4.jar" 
+      binary="true"/>    
+    <target project="jpa-in-ejb-env01" name="org.apache.openejb.resource.jdbc.BasicManagedDataSource" 
+      file="C:/Users/roman.tershak/.m2/repository/org/apache/openejb/openejb-core/3.1.4/openejb-core-3.1.4.jar" 
+      binary="true"/>  
+  </generalization>  
+  <classifier-display autosize="true" package="true" initial-value="true" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

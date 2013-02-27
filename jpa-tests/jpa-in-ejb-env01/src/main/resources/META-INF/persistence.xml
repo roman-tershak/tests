@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" 
+	xmlns="http://java.sun.com/xml/ns/persistence" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+	
+	<persistence-unit name="jpa-in-ejb-Oracle" transaction-type="JTA">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<jta-data-source>XAOracleDS</jta-data-source>
+		
+		<class>tests.jpainejb.jta.simple.PersonEntity</class>
+		<class>tests.jpainejb.jta.entities.OracleEntity</class>
+		<!-- exclude-unlisted-classes is required in order not to create 'alien' tables in other units -->
+		<exclude-unlisted-classes>true</exclude-unlisted-classes>
+		
+		<properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+	</persistence-unit>
+
+	<persistence-unit name="jpa-in-ejb-MSSQL" transaction-type="JTA">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<jta-data-source>XAMsSqlDS</jta-data-source>
+		
+		<class>tests.jpainejb.jta.entities.MsSqlEntity</class>
+		<exclude-unlisted-classes>true</exclude-unlisted-classes>
+		
+		<properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+	</persistence-unit>
+
+	<persistence-unit name="jpa-in-ejb-MySql" transaction-type="JTA">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<jta-data-source>XAMySqlDS</jta-data-source>
+		
+		<class>tests.jpainejb.jta.entities.MySqlEntity</class>
+		<exclude-unlisted-classes>true</exclude-unlisted-classes>
+		
+		<properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+	</persistence-unit>
+
+	<!--<persistence-unit name="jpa-in-ejb-PG" transaction-type="JTA">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<jta-data-source>XAPGDS</jta-data-source>
+		
+		<class>tests.jpainejb.jta.entities.PGEntity</class>
+		<exclude-unlisted-classes>true</exclude-unlisted-classes>
+		
+		<properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+	</persistence-unit>-->
+
+</persistence>

@@ -1,0 +1,6 @@
+com.arjuna.ats.jta.jtaTMImplementation=com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionManagerImple
+#
+com.arjuna.ats.jta.jtaUTImplementation=com.arjuna.ats.internal.jta.transaction.arjunacore.UserTransactionImple
+#
+
+com.arjuna.ats.arjuna.xa.nodeIdentifier=test-jta-node-rtershak
